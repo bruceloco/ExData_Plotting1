@@ -29,5 +29,5 @@ energy_data$Global_reactive_power <- as.numeric(as.character(energy_data$Global_
 # open png device for writing
 png(filename="plot2.png", width=480,height=480, bg="transparent")
 # plot
-plot(energy_data$Date,energy_data$Global_active_power,type="l", ylab="Global Active Power (killowatts)",xlab="")
+plot(energy_data$Date,energy_data$Global_active_power,type="l", ylab="Global Active Power (kilowatts)",xlab="")
 dev.off()
